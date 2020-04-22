@@ -1,0 +1,15 @@
+*.pdb
+*.mid
+*.obj
+*.txt
+*.tlog
+*.lastbuildstate
+*.log
+*.ipdb
+*.iobj
+*.exe
+*.idb
+*.ilk
+*.ipch
+*.db
+*.suo

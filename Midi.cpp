@@ -20,7 +20,8 @@ MidiEvent::MidiEvent(const MidiEvent &val)
 
 MidiChunk::MidiChunk(std::ifstream & input_file, ChunkType chunk_type) : chunk_type(chunk_type)
 {
-	char tmp[4];
+	char tmp[5];
+	tmp[4] = '\0';
 
 	input_file.read(tmp, 4);
 
